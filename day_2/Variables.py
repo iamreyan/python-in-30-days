@@ -38,3 +38,10 @@ remainder = print(num_two % num_one)
 r = 30       # r = radius
 area_of_circle = print(3.142*30**2)
 circum_of_circle = print(2*3.142*30)
+
+
+
+first_name_6 = input("What is your first name?: ")
+last_name_6 = input("What is your last name?: ")
+country_name_6 = input("What is your country name?: ")
+age_6 = input("What is your age?: ")

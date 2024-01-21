@@ -27,17 +27,27 @@ print(company.replace('Coding','Python'))
 sen = 'Python For Everyone'
 print(sen.replace("Everyone",'All'))
 print(company.split())
+sentence = 'You cannot end a sentence with because because because is a conjunction'
+sub_sen = 'because'
+print(sentence.split(sub_sen))
 
 
+h = ("radius = 10")
+i = ("area = 3.14 * radius ** 2")
+j = ("The area of a circle with radius 10 is 314 meters square.")
+print(h)
+print(i)
+print(j)
 
-
-
-
-
-
-
-
-
+k = 8
+l = 6
+print(k + l)
+print(k - l)
+print(k * l)
+print(k / l)
+print(k % l)
+print(k // l)
+print(k ** l)
 
 
 

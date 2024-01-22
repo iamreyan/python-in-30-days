@@ -16,6 +16,9 @@ first_company = 'facebook'
 middle_company = 'Apple'
 last_company = 'Amazon'
 print(first_company, middle_company, last_company)
+companies_2 = 'facebook', 'Google', 'Microsoft', 'linux','Apple', 'IBM', 'Oracle', 'Amazon'
+a_companies = 'google'
+print(a_companies.upper())
 
 
 

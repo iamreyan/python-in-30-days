@@ -36,18 +36,29 @@ companies.clear()
 print((companies))
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
-end = front_end+back_end
-print(end)
+full_stack = front_end+back_end
+end = ['Python','SQL']
+print(full_stack)
+print(front_end,end,back_end)
 
-
-
-
-
-
-
-
-
-
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24, 21]
+ages.sort()
+print(sorted(ages))
+min = min(ages)
+max = max(ages)
+print(min)
+print(max)
+median_age = print(str(25/2))
+average_age = 249/11
+print(249/11)
+range_ages = print(max-min)
+print(min - average_age)
+print(max - average_age)
+countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
+print(countries[3])
+print(countries[0:3])
+scandic_countries = countries[4:7]
+print(scandic_countries)
 
 
 

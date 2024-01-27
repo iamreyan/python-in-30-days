@@ -12,10 +12,10 @@ print(A.intersection(B))
 print(A.symmetric_difference(B))
 del A
 del B
-
-
-
-
+set_age = set(age)
+print(len(age))
+print(len(set_age))
+print(set_age)
 
 
 

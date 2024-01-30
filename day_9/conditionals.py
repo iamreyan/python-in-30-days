@@ -52,8 +52,25 @@ elif months == 'June, July and August':
 else:                                              
     print("The name of months are wrong.")
 
-
-
+person={
+'first_name': 'Asabeneh',
+'last_name': 'Yetayeh',
+'age': 250,
+'country': 'Finland',
+'is_married': True,
+'skills': ['JavaScript', 'React', 'Node', 'MongoDB', 'Python'],
+'address': {
+'street': 'Space street',
+'zipcode': '02210'
+}
+}
+is_married = True
+country = 'Finland'
+skills = ['JavaScript', 'React', 'Node', 'MongoDB', 'Python']
+print('skills' in person)
+print('Python' in skills)
+if is_married == True or country == 'Finland':
+    print("Asabeneh Yetayeh lives in Finland. He is married.")
 
 
 

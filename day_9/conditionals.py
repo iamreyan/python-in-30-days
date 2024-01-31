@@ -72,11 +72,14 @@ print('Python' in skills)
 if is_married == True or country == 'Finland':
     print("Asabeneh Yetayeh lives in Finland. He is married.")
 
-
-
-
-
-
+if 'JavaScript'and'React' in skills :
+    print('He is a front end developer')
+elif 'Node'and'Python'and'MongoDB' in skills:
+    print('He is a backend developer')
+elif  'React'and'Node'and'MongoDB' in skills:
+    print('He is a fullstack developer')
+else:
+    print('unknown title')
 
 
 

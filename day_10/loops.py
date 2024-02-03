@@ -1,4 +1,6 @@
-number = 0
+number = 1
+h = '#'
+
 for number in range(11):
     print(number)
 
@@ -6,9 +8,8 @@ while number < 11:
     print(number)
     number = number + 1
 
-
-
-
+for y in range(6):
+    print(h*y)
 
 
 

@@ -30,11 +30,8 @@ lists = ['Python', 'Numpy', 'Pandas', 'Django', 'Flask']
 for keys in lists:
     print(lists)
 
-
-
-
-
-
+even_numbers = [i+i for i in range(50)]
+print(even_numbers)
 
 
 
